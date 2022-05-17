@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-05 17:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: authx/authentication.py:36
+msgid "Authorization header must contain three space-delimited values"
+msgstr ""
+
+#: authx/authentication.py:56
+msgid "No user id"
+msgstr ""
+
+#: authx/authentication.py:62
+msgid "User not found"
+msgstr ""
+
+#: authx/authentication.py:66
+msgid "User is inactive"
+msgstr ""
+
+#: authx/common.py:4
+msgid "Cashier"
+msgstr ""
+
+#: authx/common.py:5
+msgid "Barista"
+msgstr ""
+
+#: authx/common.py:6
+msgid "Manager"
+msgstr ""
+
+#: authx/common.py:7
+msgid "Owner"
+msgstr ""
+
+#: authx/models.py:12
+msgid "Users must have an email address"
+msgstr ""
+
+#: authx/models.py:83
+msgid "Is active User"
+msgstr ""
+
+#: authx/models.py:88
+msgid "User role"
+msgstr ""
+
+#: authx/models.py:91
+msgid "User Join Date"
+msgstr ""
+
+#: authx/models.py:94
+msgid "Last loggin Date"
+msgstr ""
+
+#: authx/viewsets.py:43
+msgid "Activate your blog account."
+msgstr ""
+
+#: authx/viewsets.py:72
+msgid "User not found!"
+msgstr ""
+
+#: authx/viewsets.py:75
+msgid "Incorrect password!"
+msgstr ""
+
+#: authx/viewsets.py:101
+msgid "Thank you for your email confirmation. Now you can login your account."
+msgstr ""
+
+#: authx/viewsets.py:103
+msgid "Activation link is invalid!"
+msgstr ""
+
+#: purchase/models.py:15
+msgid "New"
+msgstr ""
+
+#: purchase/models.py:16
+msgid "Pending"
+msgstr ""
+
+#: purchase/models.py:17
+msgid "Ready"
+msgstr ""
+
+#: purchase/models.py:18
+msgid "Retrieved"
+msgstr ""
+
+#: purchase/models.py:19
+msgid "Canceled"
+msgstr ""
+
+#: purchase/serializers.py:47
+msgid "No ingredients"
+msgstr ""
+
+#: story/models.py:7
+msgid "ml"
+msgstr ""
+
+#: story/models.py:8
+msgid "g"
+msgstr ""
+
+#: supplier/models.py:16
+msgid ""
+"Phone number must be entered in the format: '00000000000000'.             Up "
+"to 15 digits allowed."
+msgstr ""
+
+#: utils/mixins.py:20
+msgid "Created"
+msgstr ""
+
+#: utils/mixins.py:22
+msgid "Updated"
+msgstr ""
+
+#: utils/mixins.py:24
+msgid "Deleted"
+msgstr ""

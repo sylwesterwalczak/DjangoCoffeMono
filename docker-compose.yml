@@ -1,0 +1,24 @@
+version: "3.9"
+   
+services:
+
+  postgress_db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    env_file: .env
+    ports:
+      - "8001:5432"
+    restart: always
+
+  mono_django:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000" 
+    env_file: .env
+    depends_on:
+      - postgress_db
+    restart: always
